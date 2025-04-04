@@ -12,12 +12,7 @@ export const Navbar = (menuOpen, setMenuOpen) => {
                     {""}
                     Tech<span className='text-blue-500'>.Tee</span>{""}
                 </a>
-
-                <div className='w-7 h-5 relative cursor-pointer z-40 md:hidden' onClick={() => setMenuOpen(prev => !prev)}>
-                    609776:
-                </div>
-
-                <div className='hidden md:flex item-center space-x-8'>
+                <div className='hidden md:flex items-center space-x-8'>
                     <a 
                         href="#home" className='text-gray-300 hover:text-white transition-colors'
                     >
@@ -25,7 +20,7 @@ export const Navbar = (menuOpen, setMenuOpen) => {
                         Home{""}
                     </a>
                     <a 
-                        href="#about" className='text-gray-300 hover:text-white transition-colors'
+                        href="#about" className='text-gray-300 hover:text-gold transition-colors'
                     >
                         {""}
                         About{""}
