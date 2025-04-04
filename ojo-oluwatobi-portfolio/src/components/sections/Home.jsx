@@ -5,16 +5,17 @@ export const Home = () => {
     <section 
       id='home' 
       className='min-h-screen flex items-center justify-center relative'
+      style={{ backgroundImage: "url('/tech-tee-portfolio/ojo-oluwatobi-portfolio/public/home.bg.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className='text-center z-10 px-4'>
         <h1 
-          className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent tracking-tight'
+          className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent tracking-tight'
         >
           I'm Tech Tee
         </h1>
 
         <p className='text-gray-400 text-lg my-8 max-w-lg mx-auto'>
-          Hi, I'm Oluwatobi Ojo (Tech Tee), a passionate and dedicated Frontend Developer with 2 years experience. With a strong background in HTML, CSS, JavaScript, and modern frameworks like React.js, I specialize in building intuitive user interfaces and creating responsive web solutions. 
+          Hi, I'm Oluwatobi Ojo (Tech Tee), a passionate and dedicated Frontend Developer with 2 years experience. 
         </p>
         
         <div className='flex justify-center space-x-4'>
