@@ -4,9 +4,14 @@ export const Home = () => {
   return (
     <section 
       id='home' 
-      className='min-h-screen flex items-center justify-center relative'
-      style={{ backgroundImage: "url('/tech-tee-portfolio/ojo-oluwatobi-portfolio/public/home.bg.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+      className='min-h-screen flex items-center justify-center relative bg-cover bg-center'
+      style={{ 
+        backgroundImage: `url('../src/assets/new.jpg')`,
+      }}
     >
+      {/* Dark overlay */}
+      <div className='absolute inset-0 bg-black opacity-50'></div>
+      
       <div className='text-center z-10 px-4'>
         <h1 
           className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent tracking-tight'
@@ -14,8 +19,8 @@ export const Home = () => {
           I'm Tech Tee
         </h1>
 
-        <p className='text-gray-400 text-lg my-8 max-w-lg mx-auto'>
-          Hi, I'm Oluwatobi Ojo (Tech Tee), a passionate and dedicated Frontend Developer with 2 years experience. 
+        <p className='text-gray-250 text-lg my-8 max-w-lg mx-auto'>
+        I specialize in crafting and building responsive websites with many functionalities, ensuring a seamless and engaging user experience 
         </p>
         
         <div className='flex justify-center space-x-4'>
