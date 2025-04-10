@@ -10,6 +10,7 @@ export const Home = () => {
       }}
     >
       {/* Dark overlay */}
+    
       <div className='absolute inset-0 bg-black opacity-50'></div>
       
       <div className='text-center z-10 px-4'>

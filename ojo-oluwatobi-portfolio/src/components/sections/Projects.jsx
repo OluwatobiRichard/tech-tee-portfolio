@@ -20,12 +20,12 @@ export const Projects = () => {
         <div 
             className='grid grid-cols-1 md:grid-cols-2 gap-6 '
         >
-            <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.2)] transition'>
-               <h3>Cloud Platform</h3>
-               <p>
-                    Scalable cloud infrastructure management with real-time monitoring and automated scaling.
+            <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
+               <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
+               <p className='text-gray-400 mb-4'>
+               i built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
                </p>
-               <div>
+               <div className='flex flex-wrap gap-2 mb-4'>
                     {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
                          <span
                             key={key}
@@ -35,8 +35,93 @@ export const Projects = () => {
                         </span>
                     ))}
                 </div>
+                <div className='flex justify-between items-center'>
+                  <a 
+                        href="#https://thefilmverse-omega.vercel.app/" 
+                        target='_blank' 
+                        className='text-blue-400 hover:text-blue-300 transition-colors my-4'
+                    >
+                        View Projet ➡️
+                    </a>  
+                </div>
+            </div>
+            <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
+               <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
+               <p className='text-gray-400 mb-4'>
+               i built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+               </p>
+               <div className='flex flex-wrap gap-2 mb-4'>
+                    {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
+                         <span
+                            key={key}
+                            className="bg-gray-800 text-gray-200 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition-all"
+                        >
+                            {tech}
+                        </span>
+                    ))}
+                </div>
+                <div className='flex justify-between items-center'>
+                  <a 
+                        href="#https://thefilmverse-omega.vercel.app/" 
+                        target='_blank' 
+                        className='text-blue-400 hover:text-blue-300 transition-colors my-4'
+                    >
+                        View Projet ➡️
+                    </a>  
+                </div>
+            </div>
+            <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
+               <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
+               <p className='text-gray-400 mb-4'>
+               i built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+               </p>
+               <div className='flex flex-wrap gap-2 mb-4'>
+                    {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
+                         <span
+                            key={key}
+                            className="bg-gray-800 text-gray-200 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition-all"
+                        >
+                            {tech}
+                        </span>
+                    ))}
+                </div>
+                <div className='flex justify-between items-center'>
+                  <a 
+                        href="#https://thefilmverse-omega.vercel.app/" 
+                        target='_blank' 
+                        className='text-blue-400 hover:text-blue-300 transition-colors my-4'
+                    >
+                        View Projet ➡️
+                    </a>  
+                </div>
+            </div>
+            <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
+               <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
+               <p className='text-gray-400 mb-4'>
+               i built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+               </p>
+               <div className='flex flex-wrap gap-2 mb-4'>
+                    {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
+                         <span
+                            key={key}
+                            className="bg-gray-800 text-gray-200 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition-all"
+                        >
+                            {tech}
+                        </span>
+                    ))}
+                </div>
+                <div className='flex justify-between items-center'>
+                  <a 
+                        href="#https://thefilmverse-omega.vercel.app/" 
+                        target='_blank' 
+                        className='text-blue-400 hover:text-blue-300 transition-colors my-4'
+                    >
+                        View Projet ➡️
+                    </a>  
+                </div>
             </div>
         </div>
+  
     </div>
 </section>
   )
