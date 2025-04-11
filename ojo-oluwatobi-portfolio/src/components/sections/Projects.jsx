@@ -4,13 +4,8 @@ export const Projects = () => {
   return (
     <section 
       id='projects' 
-      className='min-h-screen flex items-center justify-center py-20 bg-cover bg-center' // TailwindCSS classes
-      style={{ 
-        // Inline style for dynamic background image with gradient overlay
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/about.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+      className="min-h-screen flex items-center justify-center py-20 bg-cover bg-center bg-[url('../public/about.jpg')] bg-gradient-to-t from-black/70 to-black/70"
+      
     >
       <div className='max-w-5xl mx-auto px-4'>
         <h2 
