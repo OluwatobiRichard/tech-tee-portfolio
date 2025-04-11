@@ -4,8 +4,7 @@ export const Projects = () => {
   return (
     <section 
       id='projects' 
-      className="min-h-screen flex items-center justify-center py-20 bg-cover bg-center bg-[url('../public/about.jpg')] bg-gradient-to-t from-black/70 to-black/70"
-      
+      className="min-h-screen flex items-center justify-center py-20 bg-cover bg-center bg-[url('../public/pro.avif')] bg-gradient-to-t from-black to-black"
     >
       <div className='max-w-5xl mx-auto px-4'>
         <h2 
