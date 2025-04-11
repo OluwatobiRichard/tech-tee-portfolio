@@ -4,9 +4,9 @@ export const Projects = () => {
   return (
     <section 
       id='projects' 
-      className='min-h-screen flex items-center justify-center py-20 bg-cover bg-center bg-projects-bg' // Custom class applied
+      className='min-h-screen flex items-center justify-center py-20 bg-cover bg-center' // TailwindCSS classes
       style={{ 
-        // Inline style for dynamic background image (can be overridden)
+        // Inline style for dynamic background image with gradient overlay
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../src/assets/pro.avif')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',

@@ -25,8 +25,31 @@ export const About = () => {
 
         <div className='rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all'>
           <p className='text-gray-100 mb-6'>
-          I am adept at optimizing website performance, implementing best practices for SEO, and ensuring cross-browser compatibility. Additionally, I focus on intuitive UI/UX design, making sure that users can navigate the site effortlessly. With a keen eye for detail and a passion for innovative solutions, I am committed to delivering high-quality web projects that meet and exceed client expectations. I enjoy turning complex requirements into simple, elegant solutions and always stay updated with the latest trends to ensure my projects are top-notch.
+          As a passionate front-end developer, I bring a unique blend of technical expertise, creativity, and user-focused design to every project. With my deep understanding of modern front-end technologies and framework, I have the ability to translate complex requirements into seamless, responsive, and visually appealing interfaces.
           </p>
+          <h3 className='text-xl font-bold mb-4'>Key Reasons to Hire Me</h3>
+          <ul className='list-disc lisk-inside text-gray-300 space-y-2'>
+            <li>
+                <strong>Technical Proficiency</strong>:
+                I am skilled in HTML, CSS, JavaScript, and modern framework like React.js. My knowledge of tools like Git, Webpack, and other build systems ensures streamlined and efficient development.
+            </li>
+            <li>
+                <strong>Design & UX Focus</strong>:
+                Beyond coding, I have a strong eye for design and usability. I prioritize creating engaging and accessible user experiences that drive results and leave users satisfied.
+            </li>
+            <li>
+                <strong>Problem-Solving Abilities</strong>:
+                I excel at debugging, optimizing, and finding creative solutions to complex problems. My ability to adapt and learn new technologies quickly makes me an asset in dynamic environments.
+            </li>
+            <li>
+                <strong>Collaboration & Communication</strong>:
+                I thrive in team settings, collaborating closely with designers, back-end developers, and product managers to deliver cohesive solutions. My communication skills ensure alignment across stakeholders.
+            </li>
+            <li>
+                <strong>Continuous Improvement</strong>:
+                I am committed to staying updated with the latest trends and best practices in front-end development, ensuring that my work is future-proof and innovative.
+            </li>
+          </ul>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
