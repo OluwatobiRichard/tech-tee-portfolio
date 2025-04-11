@@ -1,18 +1,11 @@
 import React from 'react';
 
-
-
 export const Home = () => {
   return (
     <section 
       id='home' 
-      className='min-h-screen flex items-center justify-center relative bg-cover bg-center'
-      style={{ 
-        backgroundImage: `url('../public/new.jpg')`,
-      }}
+      className="min-h-screen flex items-center justify-center relative bg-cover bg-center bg-[url('../public/new.jpg')]" // Tailwind utility class
     >
-      {/* Dark overlay */}
-    
       <div className='absolute inset-0 bg-black opacity-50'></div>
       
       <div className='text-center z-10 px-4'>
@@ -21,11 +14,9 @@ export const Home = () => {
         >
           I'm Tech Tee
         </h1>
-
         <p className='text-gray-250 text-lg my-8 max-w-lg mx-auto'>
-        I specialize in crafting and building responsive websites with many functionalities, ensuring a seamless and engaging user experience 
+          I specialize in crafting and building responsive websites with many functionalities, ensuring a seamless and engaging user experience 
         </p>
-        
         <div className='flex justify-center space-x-4'>
           <a 
             href="#projects"
