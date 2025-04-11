@@ -10,29 +10,18 @@ export const Contact = () => {
 
     const [isSubmitting, setIsSubmitting] = useState(false); // Add a loading state
 
+    // Hardcoded EmailJS credentials
+    const SERVICE_ID = "service_nfrwdqm";
+    const TEMPLATE_ID = "template_oj4k08q";
+    const PUBLIC_KEY = "dpp_I81rSNCSUad3B";
+
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevent default behavior
-
-        // Validate environment variables
-        if (
-            !import.meta.env.VITE_SERVICE_ID ||
-            !import.meta.env.VITE_TEMPLATE_ID ||
-            !import.meta.env.VITE_PUBLIC_KEY
-        ) {
-            console.error('Missing EmailJS environment variables.');
-            alert('Email service is not properly configured.');
-            return;
-        }
 
         setIsSubmitting(true); // Set loading state
 
         emailjs
-            .sendForm(
-                import.meta.env.VITE_SERVICE_ID,
-                import.meta.env.VITE_TEMPLATE_ID,
-                e.target,
-                import.meta.env.VITE_PUBLIC_KEY
-            )
+            .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
             .then(() => {
                 alert('Message Sent Successfully!');
                 setFormData({ name: '', email: '', message: '' }); // Reset form fields
