@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-// Contact Component
 export const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -9,13 +8,27 @@ export const Contact = () => {
         message: '',
     });
 
-    // Handle form submission
+    const [isSubmitting, setIsSubmitting] = useState(false); // Add a loading state
+
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault(); // Prevent default behavior
+
+        // Validate environment variables
+        if (
+            !import.meta.env.VITE_SERVICE_ID ||
+            !import.meta.env.VITE_TEMPLATE_ID ||
+            !import.meta.env.VITE_PUBLIC_KEY
+        ) {
+            console.error('Missing EmailJS environment variables.');
+            alert('Email service is not properly configured.');
+            return;
+        }
+
+        setIsSubmitting(true); // Set loading state
 
         emailjs
             .sendForm(
-                import.meta.env.VITE_SERVICE_ID, // Fixed: Correct way to use environment variables
+                import.meta.env.VITE_SERVICE_ID,
                 import.meta.env.VITE_TEMPLATE_ID,
                 e.target,
                 import.meta.env.VITE_PUBLIC_KEY
@@ -23,10 +36,12 @@ export const Contact = () => {
             .then(() => {
                 alert('Message Sent Successfully!');
                 setFormData({ name: '', email: '', message: '' }); // Reset form fields
+                setIsSubmitting(false); // Reset loading state
             })
             .catch((error) => {
                 console.error('Error sending email:', error);
                 alert('Failed to send message. Please try again.');
+                setIsSubmitting(false); // Reset loading state
             });
     };
 
@@ -91,9 +106,12 @@ export const Contact = () => {
                     {/* Submit Button */}
                     <button
                         type="submit"
-                        className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-lg focus:ring-2 focus:ring-blue-500"
+                        className={`w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-lg focus:ring-2 focus:ring-blue-500 ${
+                            isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
+                        }`}
+                        disabled={isSubmitting} // Disable button while submitting
                     >
-                        Send Message
+                        {isSubmitting ? 'Sending...' : 'Send Message'}
                     </button>
                 </form>
             </div>
