@@ -37,7 +37,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                   <a 
-                        href="#https://thefilmverse-omega.vercel.app/" 
+                        href="https://thefilmverse-omega.vercel.app/" 
                         target='_blank' 
                         className='text-blue-400 hover:text-blue-300 transition-colors my-4'
                     >
@@ -62,7 +62,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                   <a 
-                        href="#https://thefilmverse-omega.vercel.app/" 
+                        href="https://thefilmverse-omega.vercel.app/" 
                         target='_blank' 
                         className='text-blue-400 hover:text-blue-300 transition-colors my-4'
                     >
@@ -87,7 +87,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                   <a 
-                        href="#https://thefilmverse-omega.vercel.app/" 
+                        href="https://thefilmverse-omega.vercel.app/" 
                         target='_blank' 
                         className='text-blue-400 hover:text-blue-300 transition-colors my-4'
                     >
@@ -112,7 +112,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                   <a 
-                        href="#https://thefilmverse-omega.vercel.app/" 
+                        href="https://thefilmverse-omega.vercel.app/" 
                         target='_blank' 
                         className='text-blue-400 hover:text-blue-300 transition-colors my-4'
                     >
