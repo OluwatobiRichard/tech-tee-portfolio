@@ -6,7 +6,7 @@ export const Home = () => {
       id='home' 
       className='min-h-screen flex items-center justify-center relative bg-cover bg-center'
       style={{ 
-        backgroundImage: `url('../src/assets/new.jpg')`,
+        backgroundImage: `url('../public/new.jpg')`,
       }}
     >
       {/* Dark overlay */}
