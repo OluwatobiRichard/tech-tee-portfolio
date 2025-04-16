@@ -18,7 +18,7 @@ export const Projects = () => {
           <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
             <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
             <p className='text-gray-400 mb-4'>
-              I built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+              Designed with movie enthusiasts in mind, this application offers a seamless experience for exploring, tracking, and discovering films from across the globe. Whether you're hunting for hidden gems or keeping tabs on your favorite blockbusters, this app is your perfect companion for all things cinema.
             </p>
             <div className='flex flex-wrap gap-2 mb-4'>
               {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
@@ -44,7 +44,7 @@ export const Projects = () => {
           <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
             <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
             <p className='text-gray-400 mb-4'>
-              I built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+              Designed with movie enthusiasts in mind, this application offers a seamless experience for exploring, tracking, and discovering films from across the globe. Whether you're hunting for hidden gems or keeping tabs on your favorite blockbusters, this app is your perfect companion for all things cinema.
             </p>
             <div className='flex flex-wrap gap-2 mb-4'>
               {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
@@ -70,7 +70,7 @@ export const Projects = () => {
           <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
             <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
             <p className='text-gray-400 mb-4'>
-              I built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+              Designed with movie enthusiasts in mind, this application offers a seamless experience for exploring, tracking, and discovering films from across the globe. Whether you're hunting for hidden gems or keeping tabs on your favorite blockbusters, this app is your perfect companion for all things cinema.
             </p>
             <div className='flex flex-wrap gap-2 mb-4'>
               {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (
@@ -96,7 +96,7 @@ export const Projects = () => {
           <div className='p-5 rounded-xl border-white/10 hover:-translate-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,138,246,0.1)] transition'>
             <h3 className='text-xl font-bold mb-2'>Movie Database</h3>
             <p className='text-gray-400 mb-4'>
-              I built it with movie enthusiasts in mind, this application provides a seamless experience for browsing, tracking, and discovering films from around the world.
+              Designed with movie enthusiasts in mind, this application offers a seamless experience for exploring, tracking, and discovering films from across the globe. Whether you're hunting for hidden gems or keeping tabs on your favorite blockbusters, this app is your perfect companion for all things cinema.
             </p>
             <div className='flex flex-wrap gap-2 mb-4'>
               {['React.js', 'Figma', 'Tailwindcss'].map((tech, key) => (

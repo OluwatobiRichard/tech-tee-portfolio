@@ -37,7 +37,7 @@ export const Contact = () => {
     return (
         <section
             id="contact"
-            className="min-h-screen flex items-center justify-center py-20 bg-black"
+            className="min-h-screen flex items-center justify-center py-20 bg-black-50" // Updated background color to 90% dark
         >
             <div className="px-4 max-w-lg w-full">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
